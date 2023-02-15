@@ -2,13 +2,17 @@
     "name": "NotUnitySNVideoGame",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "sprite-scaling": "*",
+        "animation": "*",
+        "controller": "*"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
-        "assets.json"
+        "assets.json",
+        "main.py"
     ],
     "testFiles": [
         "test.ts"
